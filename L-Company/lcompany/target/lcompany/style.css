@@ -1,0 +1,85 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-image: url("projetImages/backGround.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/*Bouton de lien */
+a,button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    color:white;
+    border-radius: 1.5rem;
+    background-color:crimson ;
+    text-align: center;
+    border: 2px solid crimson;
+}
+/*form*/
+form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+/*Paragraph*/
+p{
+    color: white;
+    text-align: center;
+}
+/*input*/
+input{
+    width: 400px;
+    background-color: transparent;
+    color: white;
+    padding: 0.6rem;
+    border: 2px solid crimson;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+/*image*/
+img{
+    height: 200px;
+}
+/*blocks*/
+
+.blockI,.blockII,.blockIII,.error,.contactI{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(50px);
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(300px);
+    padding: 30px;
+    gap:0.1rem;
+    border-radius: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.blockII{
+    gap: 0.8rem;
+}
+.blockII .btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.blockIII{
+    gap: 0.8rem;
+}
+
+

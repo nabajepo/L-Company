@@ -1,0 +1,4 @@
+com\controleur\ServiceApiServlet.class
+com\controleur\ServiceApiRest.class
+com\model\CheckInfo.class
+com\model\CompanyService.class
