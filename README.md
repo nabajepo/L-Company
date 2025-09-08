@@ -11,6 +11,6 @@ This project uses an MVC-like pattern.
 
 # Running the Application
 Watch my demo L-Company/Demonstration.mp4
-Also check out my documents L-Company/Documents.docs
+Also check out my documents L-Company/Documentation.docs
 
 
